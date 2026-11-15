@@ -1,0 +1,9 @@
+sector,use_case,region,market_attractiveness,problem_urgency,willingness_to_pay,accessibility,product_fit,sales_cycle_months,regulatory_complexity,signal,source_url,last_checked,is_demo
+Manufacturing,Remote hazardous maintenance,DACH,9,9,9,6,9,14,6,Fictional operator requested a proof of concept,https://example.com/demo/hazardous-maintenance,2026-11-04,true
+Manufacturing,XR precision assembly training,EU,8,7,8,8,8,9,3,Fictional training partner reported repeat demand,https://example.com/demo/xr-assembly,2026-11-01,true
+Robotics,Teleoperation development workstation,EU,7,8,7,9,10,7,2,Fictional robotics lab requested an evaluation kit,https://example.com/demo/robotics-workstation,2026-11-06,true
+Healthcare,Upper-limb rehabilitation feedback,DACH,8,9,7,5,7,20,9,Fictional clinic expressed research interest,https://example.com/demo/rehabilitation,2026-10-26,true
+Education,University haptics teaching kit,EU,6,5,5,9,8,6,2,Fictional faculty requested curriculum materials,https://example.com/demo/teaching-kit,2026-10-29,true
+Energy,Remote inspection manipulation,DACH,9,8,9,4,8,18,7,Fictional asset owner discussed field constraints,https://example.com/demo/energy-inspection,2026-10-31,true
+Research,Human-robot interaction experiments,North America,7,6,6,8,9,8,3,Fictional lab requested API documentation,https://example.com/demo/hri-research,2026-11-03,true
+Logistics,Robotic picking exception handling,EU,8,8,8,7,7,12,4,Fictional integrator described an exception-rate pain point,https://example.com/demo/logistics-picking,2026-11-02,true

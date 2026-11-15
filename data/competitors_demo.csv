@@ -1,0 +1,8 @@
+competitor,focus,region,product_maturity,estimated_price_eur,haptic_depth,integration_score,b2b_readiness,signal,source_url,last_checked,is_demo
+Allegro Robotics,Industrial teleoperation,DACH,Pilot,14500,8,7,8,Announced a fictional integrator pilot,https://example.com/demo/allegro,2026-10-30,true
+Haptikon Labs,XR training,EU,Commercial,6800,7,9,7,Released a fictional SDK update,https://example.com/demo/haptikon,2026-11-02,true
+MechSense Works,Rehabilitation,DACH,Prototype,9200,6,6,5,Presented a fictional clinic study concept,https://example.com/demo/mechsense,2026-10-24,true
+NovaGrip Systems,Industrial teleoperation,North America,Commercial,17800,9,8,9,Expanded a fictional channel partnership,https://example.com/demo/novagrip,2026-11-05,true
+Synaptica Devices,Research platforms,EU,Pilot,5200,8,10,6,Published fictional developer documentation,https://example.com/demo/synaptica,2026-10-28,true
+Tactile Forge,XR training,North America,Prototype,4100,5,7,4,Opened a fictional early-access program,https://example.com/demo/tactile-forge,2026-10-20,true
+VectorTouch GmbH,Research platforms,DACH,Commercial,7600,7,8,8,Added a fictional procurement framework,https://example.com/demo/vectortouch,2026-11-06,true
