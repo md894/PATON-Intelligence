@@ -6,7 +6,7 @@ from src.scoring import DEFAULT_WEIGHTS, score_markets
 from src.ui import configure_page, demo_notice, sidebar_navigation
 
 
-configure_page(tr("overview"), "◈")
+configure_page(tr("overview"), "P")
 sidebar_navigation()
 
 competitors = load_competitors()
@@ -26,11 +26,11 @@ metric_4.metric(tr("top_score"), f"{markets['opportunity_score'].max():.1f}")
 st.markdown(f"### {tr('choose_workspace')}")
 left, right = st.columns(2)
 with left:
-    st.markdown(f"#### 🧭 {tr('competitor_intelligence')}")
+    st.markdown(f"#### {tr('competitor_intelligence')}")
     st.write(tr("competitor_card"))
     st.page_link("pages/1_Competitor_Intelligence.py", label=tr("open_competitor"))
 with right:
-    st.markdown(f"#### 🏭 {tr('market_intelligence')}")
+    st.markdown(f"#### {tr('market_intelligence')}")
     st.write(tr("market_card"))
     st.page_link("pages/2_B2B_Market_Intelligence.py", label=tr("open_market"))
 

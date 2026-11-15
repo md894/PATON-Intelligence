@@ -10,7 +10,7 @@ The repository starts in **demo mode**. Every included company, metric, signal, 
 ## What is included
 
 - Streamlit browser dashboard with an overview and two analysis pages
-- English/German interface selector and light/dark appearance selector
+- compact Felya-style English/German and light/dark controls whose preferences persist across pages
 - filters, KPI cards, charts, and downloadable filtered CSV files
 - transparent opportunity-scoring model with user-adjustable weights
 - safe local demo data in `data/`

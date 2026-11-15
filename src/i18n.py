@@ -154,5 +154,5 @@ TEXT = {
 
 
 def tr(key: str) -> str:
-    language = st.session_state.get("language", "en")
+    language = st.session_state.get("language_preference", "en")
     return TEXT.get(language, TEXT["en"]).get(key, TEXT["en"].get(key, key))

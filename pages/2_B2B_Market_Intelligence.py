@@ -6,7 +6,7 @@ from src.scoring import BENEFIT_COLUMNS, COST_COLUMNS, DEFAULT_WEIGHTS, score_ma
 from src.ui import configure_page, demo_notice, sidebar_navigation
 
 
-configure_page(tr("market_intelligence"), "🏭")
+configure_page(tr("market_intelligence"), "P")
 sidebar_navigation()
 
 st.title(tr("market_intelligence"))
