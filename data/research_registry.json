@@ -524,5 +524,359 @@
         "url": "https://www.csiro.au/en/news/all/articles/2023/april/taking-mining-technology-into-orbit"
       }
     ]
+  },
+  {
+    "id": "C09",
+    "organization": "Origami Robotics",
+    "product": "S1 Data Collection Gloves",
+    "region": "US",
+    "category": "glove",
+    "stage": "documented",
+    "en": "Captures hand pose, joint angles, touch signals, object tracking and wrist trajectories. Access by inquiry.",
+    "de": "Erfasst Handpose, Gelenkwinkel, Berührungssignale, Objektbewegung und Handgelenkbahnen. Zugang auf Anfrage.",
+    "relevance_en": "Benchmark training-data capture. Operator force feedback is unverified.",
+    "relevance_de": "Lerndatenerfassung vergleichen. Kraftfeedback für Bedienende bleibt offen.",
+    "search_aliases": "Origami Robotik Оригами Роботик",
+    "sources": [
+      {
+        "label": "www.origami-robotics.com",
+        "url": "https://www.origami-robotics.com/s1"
+      },
+      {
+        "label": "www.ycombinator.com",
+        "url": "https://www.ycombinator.com/companies/origami-robotics"
+      }
+    ]
+  },
+  {
+    "id": "C10",
+    "organization": "Sharpa",
+    "product": "AE01",
+    "region": "SG",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "The vendor describes a 22-encoder exoskeleton glove with haptic feedback, teleoperation and data capture.",
+    "de": "Der Anbieter beschreibt einen Exoskelett-Handschuh mit 22 Encodern, haptischem Feedback, Teleoperation und Datenerfassung.",
+    "relevance_en": "Close functional benchmark. Verify actuator type and supported robot hands.",
+    "relevance_de": "Enger Funktionsvergleich. Aktortyp und unterstützte Roboterhände prüfen.",
+    "sources": [
+      {
+        "label": "www.sharpa.com",
+        "url": "https://www.sharpa.com/pages/ae01"
+      }
+    ]
+  },
+  {
+    "id": "C11",
+    "organization": "SenseGlove",
+    "product": "R1 / Rembrandt",
+    "region": "NL",
+    "category": "glove",
+    "stage": "documented",
+    "en": "Active cable-driven flexion feedback on four digits, tracking and vibration for robotic teleoperation.",
+    "de": "Aktives seilbasiertes Beugefeedback an vier Fingern, Tracking und Vibration für Roboterteleoperation.",
+    "relevance_en": "Benchmark active force feedback and distinguish it from Nova 2 passive braking.",
+    "relevance_de": "Aktives Kraftfeedback vergleichen und von der passiven Bremse der Nova 2 abgrenzen.",
+    "sources": [
+      {
+        "label": "senseglove.gitlab.io",
+        "url": "https://senseglove.gitlab.io/senseglovedocs/R1.html"
+      }
+    ]
+  },
+  {
+    "id": "C12",
+    "organization": "AGIBOT / AGILINK",
+    "product": "OmniGlove / OmniGlove Pro",
+    "region": "CN",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "Motion capture, recording, playback and teleoperation. Pro adds synchronized hand-wide tactile sensing.",
+    "de": "Bewegungserfassung, Aufzeichnung, Wiedergabe und Teleoperation. Pro ergänzt synchronisierte taktile Sensorik an der Hand.",
+    "relevance_en": "Benchmark motion and touch data capture. Tactile sensing is an input channel.",
+    "relevance_de": "Bewegungs- und Tastdatenerfassung vergleichen. Taktile Sensorik ist ein Eingangskanal.",
+    "sources": [
+      {
+        "label": "store.agibot.com",
+        "url": "https://store.agibot.com/products/omniglove"
+      }
+    ]
+  },
+  {
+    "id": "C13",
+    "organization": "WHATsLAB",
+    "product": "Air Glove Atlas",
+    "region": "KR",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "An open-band hand-motion interface with tactile feedback and developer tools for Physical AI and virtual training.",
+    "de": "Offene Fingerband-Schnittstelle mit Bewegungserfassung, taktilem Feedback und Entwicklerwerkzeugen für Physical AI und virtuelles Training.",
+    "relevance_en": "Compare wearability and tactile output. Verify the type of feedback.",
+    "relevance_de": "Tragekomfort und taktile Ausgabe vergleichen. Feedbackart prüfen.",
+    "sources": [
+      {
+        "label": "www.whatslab.co.kr",
+        "url": "https://www.whatslab.co.kr/ko/products"
+      }
+    ]
+  },
+  {
+    "id": "C14",
+    "organization": "Diver-X / Melt Interface Technologies",
+    "product": "EXOS force-feedback technology",
+    "region": "JP",
+    "category": "glove",
+    "stage": "documented",
+    "en": "Diver-X announced an EXOS business license covering wrist force feedback and hand-related technologies.",
+    "de": "Diver-X meldete eine EXOS-Geschäftslizenz für Kraftfeedback am Handgelenk und handbezogene Technologien.",
+    "relevance_en": "Track development from XR to robotics. Integrated-system availability remains open.",
+    "relevance_de": "Entwicklung von XR zur Robotik verfolgen. Verfügbarkeit eines Gesamtsystems bleibt offen.",
+    "sources": [
+      {
+        "label": "prtimes.jp",
+        "url": "https://prtimes.jp/main/html/rd/p/000000017.000079431.html"
+      }
+    ]
+  },
+  {
+    "id": "C15",
+    "organization": "TESLASUIT",
+    "product": "Teslaglove 2",
+    "region": "GB",
+    "category": "glove",
+    "stage": "documented",
+    "en": "The manufacturer lists haptic and force feedback and shows a preorder option.",
+    "de": "Der Hersteller nennt haptisches Feedback und Kraftfeedback und zeigt eine Vorbestelloption.",
+    "relevance_en": "Compare glove and suit ecosystems. Confirm version, availability and robot integration.",
+    "relevance_de": "Handschuh- und Anzuglösungen vergleichen. Version, Verfügbarkeit und Roboterintegration klären.",
+    "sources": [
+      {
+        "label": "teslasuit.io",
+        "url": "https://teslasuit.io/products/teslaglove/"
+      }
+    ]
+  },
+  {
+    "id": "T10",
+    "organization": "Force Dimension",
+    "product": "sigma.7",
+    "region": "CH",
+    "category": "interface",
+    "stage": "commercial",
+    "en": "Stationary master interface with force and torque feedback, including force at the grip.",
+    "de": "Stationäre Master-Schnittstelle mit Kraft- und Drehmomentfeedback einschließlich Kraft am Griff.",
+    "relevance_en": "Compare fixed operator stations with wearables.",
+    "relevance_de": "Stationäre Bedienplätze mit Wearables vergleichen.",
+    "sources": [
+      {
+        "label": "www.forcedimension.com",
+        "url": "https://www.forcedimension.com/products/sigma"
+      }
+    ]
+  },
+  {
+    "id": "T11",
+    "organization": "Technical University of Munich",
+    "product": "Tendon-Driven Haptic Glove",
+    "region": "DE",
+    "category": "glove",
+    "stage": "research",
+    "en": "A research publication describes a tendon-driven glove for force-feedback telemanipulation.",
+    "de": "Eine Forschungsarbeit beschreibt einen seilgetriebenen Handschuh für Fernmanipulation mit Kraftfeedback.",
+    "relevance_en": "Compare the finger force-feedback mechanism and experimental setup.",
+    "relevance_de": "Mechanismus für Fingerkraftfeedback und Versuchsaufbau vergleichen.",
+    "sources": [
+      {
+        "label": "portal.fis.tum.de",
+        "url": "https://portal.fis.tum.de/en/publications/tendon-driven-haptic-glove-for-force-feedback-telemanipulation/"
+      }
+    ]
+  },
+  {
+    "id": "T12",
+    "organization": "Tsinghua University / PKU–PsiBot Joint Lab",
+    "product": "CDF-Glove",
+    "region": "CN",
+    "category": "glove",
+    "stage": "research",
+    "en": "Cable-driven force-feedback glove evaluated across different robotic hands and bimanual demonstrations.",
+    "de": "Seilgetriebener Kraftfeedback-Handschuh, evaluiert mit verschiedenen Roboterhänden und beidhändigen Demonstrationen.",
+    "relevance_en": "Compare hand compatibility, latency and demonstration recording.",
+    "relevance_de": "Hand-Kompatibilität, Latenz und Demonstrationsaufzeichnung vergleichen.",
+    "sources": [
+      {
+        "label": "arxiv.org",
+        "url": "https://arxiv.org/abs/2603.05804"
+      }
+    ]
+  },
+  {
+    "id": "T13",
+    "organization": "MIT research team",
+    "product": "Digitally embroidered smart glove",
+    "region": "US",
+    "category": "glove",
+    "stage": "research",
+    "en": "In teleoperation experiments, tactile signals from a gripper drive fingertip vibration on a glove.",
+    "de": "In Teleoperationsversuchen steuern taktile Signale eines Greifers die Fingerspitzenvibration eines Handschuhs.",
+    "relevance_en": "Benchmark a contact-feedback loop based on vibration.",
+    "relevance_de": "Einen Kontaktfeedback-Kreis auf Vibrationsbasis vergleichen.",
+    "sources": [
+      {
+        "label": "www.nature.com",
+        "url": "https://www.nature.com/articles/s41467-024-45059-8"
+      }
+    ]
+  },
+  {
+    "id": "T14",
+    "organization": "Egyptian research team / AASTMT",
+    "product": "Multi Finger Haptic Hand with Force Feedback",
+    "region": "EG",
+    "category": "glove",
+    "stage": "research",
+    "en": "A paper documents an experimental glove, robotic hand and mechanical force-feedback setup.",
+    "de": "Ein Beitrag dokumentiert einen experimentellen Aufbau aus Handschuh, Roboterhand und mechanischem Kraftfeedback.",
+    "relevance_en": "Track bilateral hand-control research. The evidence concerns a lab setup.",
+    "relevance_de": "Forschung zur bilateralen Handsteuerung verfolgen. Die Belege betreffen einen Laboraufbau.",
+    "sources": [
+      {
+        "label": "aast.edu",
+        "url": "https://aast.edu/pheed/staffadminview/pdf_retreive.php?stafftype=staffpdf&url=27435_351_5_A+Multi+Finger+Haptic+Hand+with+Force+Feedback+2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "T15",
+    "organization": "International Hellenic University / Aristotle University of Thessaloniki",
+    "product": "Haptic-glove remote arm study",
+    "region": "GR",
+    "category": "interface",
+    "stage": "research",
+    "en": "A study evaluates tactile feedback during remote robot-arm manipulation using a haptic glove.",
+    "de": "Eine Studie untersucht taktiles Feedback bei der Fernmanipulation eines Roboterarms mit einem haptischen Handschuh.",
+    "relevance_en": "Use as a reference when designing a PATON operator study.",
+    "relevance_de": "Als Orientierung für eine PATON-Bedienstudie nutzen.",
+    "sources": [
+      {
+        "label": "www.mdpi.com",
+        "url": "https://www.mdpi.com/2079-9292/14/24/4964"
+      }
+    ]
+  },
+  {
+    "id": "T16",
+    "organization": "Haply Robotics",
+    "product": "Inverse3",
+    "region": "CA",
+    "category": "interface",
+    "stage": "commercial",
+    "en": "A physical force-feedback controller for robotics, simulation and teleoperation.",
+    "de": "Ein physischer Kraftfeedback-Controller für Robotik, Simulation und Teleoperation.",
+    "relevance_en": "Compare workflows where task-level force cues are sufficient.",
+    "relevance_de": "Arbeitsabläufe vergleichen, bei denen Kraftsignale auf Aufgabenebene genügen.",
+    "sources": [
+      {
+        "label": "www.haply.co",
+        "url": "https://www.haply.co/inverse3/"
+      }
+    ]
+  },
+  {
+    "id": "T17",
+    "organization": "Touchlab",
+    "product": "TACTO robotic fingertip",
+    "region": "GB",
+    "category": "sensor",
+    "stage": "documented",
+    "en": "Touchlab describes a robot-side sensor for contact-force distribution and slip-related signals.",
+    "de": "Touchlab beschreibt einen robotermontierten Sensor für Kraftverteilung und schlupfbezogene Signale.",
+    "relevance_en": "Potential source of robot-side contact data. Operator feedback requires separate actuators and mapping.",
+    "relevance_de": "Mögliche Quelle für Kontaktdaten am Roboter. Bedienfeedback erfordert eigene Aktoren und eine Signalzuordnung.",
+    "sources": [
+      {
+        "label": "www.touchlab.io",
+        "url": "https://www.touchlab.io/technology"
+      }
+    ]
+  },
+  {
+    "id": "B12",
+    "organization": "Origami Robotics",
+    "product": "Flow robotic hand",
+    "region": "US",
+    "category": "robotics",
+    "stage": "documented",
+    "en": "Origami presents Flow as a liquid-cooled direct-drive hand and describes co-designing its robotic hand and data glove.",
+    "de": "Origami stellt Flow als flüssigkeitsgekühlte Hand mit Direktantrieb vor und beschreibt die gemeinsame Entwicklung von Roboterhand und Datenhandschuh.",
+    "relevance_en": "Benchmark glove-to-hand mapping. Confirm availability and interoperability with PATON.",
+    "relevance_de": "Zuordnung von Handschuh zu Roboterhand vergleichen. Verfügbarkeit und PATON-Kompatibilität klären.",
+    "search_aliases": "Origami Robotik Оригами Роботик",
+    "sources": [
+      {
+        "label": "www.origami-robotics.com",
+        "url": "https://www.origami-robotics.com/"
+      },
+      {
+        "label": "www.ycombinator.com",
+        "url": "https://www.ycombinator.com/companies/origami-robotics"
+      }
+    ]
+  },
+  {
+    "id": "B13",
+    "organization": "Fraunhofer IFF × Shadow Robot",
+    "product": "Tactile manufacturing manipulation project",
+    "region": "DE/GB",
+    "category": "robotics",
+    "stage": "research",
+    "en": "The partners announced research combining dexterous robot hands, tactile sensing and teleoperation for manual production tasks.",
+    "de": "Die Partner kündigten Forschung zu Roboterhänden, taktiler Sensorik und Teleoperation für manuelle Fertigungsaufgaben an.",
+    "relevance_en": "Track the industrial research signal and identify concrete tasks and integration requirements.",
+    "relevance_de": "Industrielles Forschungssignal verfolgen und konkrete Aufgaben sowie Integrationsanforderungen ermitteln.",
+    "catalog": false,
+    "sources": [
+      {
+        "label": "www.iff.fraunhofer.de",
+        "url": "https://www.iff.fraunhofer.de/de/presse/2026/gemeinsam-taktil-gesteuerte-robotische-manipulation-in-der-produktion-erforschen.html"
+      }
+    ]
+  },
+  {
+    "id": "B14",
+    "organization": "Unitree Robotics",
+    "product": "XR Teleoperate",
+    "region": "CN",
+    "category": "robotics",
+    "stage": "documented",
+    "en": "Unitree publishes code and setup instructions for humanoid teleoperation using XR devices.",
+    "de": "Unitree veröffentlicht Code und Anleitungen zur Teleoperation humanoider Roboter mit XR-Geräten.",
+    "relevance_en": "Benchmark an alternative operator setup and its calibration requirements.",
+    "relevance_de": "Alternative Bedienlösung und deren Kalibrierungsanforderungen vergleichen.",
+    "sources": [
+      {
+        "label": "github.com",
+        "url": "https://github.com/unitreerobotics/xr_teleoperate"
+      }
+    ]
+  },
+  {
+    "id": "B15",
+    "organization": "KAIST IRiS Lab",
+    "product": "Haptics and Telerobotics",
+    "region": "KR",
+    "category": "robotics",
+    "stage": "research",
+    "en": "The group studies capturing human demonstrations and touch signals for robot learning with haptic feedback.",
+    "de": "Die Gruppe erforscht die Erfassung menschlicher Demonstrationen und Tastsignale für Roboterlernen mit haptischem Feedback.",
+    "relevance_en": "Track requirements for paired movement and contact data.",
+    "relevance_de": "Anforderungen an gekoppelte Bewegungs- und Kontaktdaten verfolgen.",
+    "catalog": false,
+    "sources": [
+      {
+        "label": "iris.kaist.ac.kr",
+        "url": "https://iris.kaist.ac.kr/teleoperation/"
+      }
+    ]
   }
 ]

@@ -34,8 +34,8 @@ def render_registry(entries, key):
         entry for entry in entries
         if (category == "all" or entry["category"] == category)
         and (region == "all" or region in entry["region"].split("/"))
-        and all(word in " ".join(entry[field] for field in (
-            "id", "organization", "product", "region", "en", "de"
+        and all(word in " ".join(entry.get(field, "") for field in (
+            "id", "organization", "product", "region", "en", "de", "search_aliases"
         )).casefold() for word in query.split())
     ]
     st.caption(f"{len(filtered)} / {len(entries)} {tr('registry_entries')}")

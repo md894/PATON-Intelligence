@@ -5,7 +5,7 @@ Free, browser-based MVP for two practical research workflows:
 - **Competitor Intelligence** — compare competitor positioning, maturity, integration readiness, pricing signals, and recent activity.
 - **B2B Market Intelligence** — rank market opportunities with transparent, adjustable scoring weights.
 
-The dashboard opens with **public-source market research**. The register contains 28 research entries, with source links and English/German summaries. The product catalog also lists FELYA's PATON reference platform. Both intelligence sections offer a separately labeled **Demo dashboard** with fictional records and scoring examples. No credentials or paid APIs are required.
+The dashboard opens with **public-source market research**. The register contains 47 research entries with source links and English/German summaries. The product catalog also lists FELYA's PATON reference platform. Both intelligence sections offer a separately labeled **Demo dashboard** with fictional records and scoring examples. No credentials or paid APIs are required.
 
 ## What is included
 

@@ -3,6 +3,7 @@ import streamlit as st
 
 TEXT = {
     "en": {
+        "registry_sensor": "Robot-side tactile sensors",
         "registry_catalog": "Product catalog",
         "registry_catalog_intro": "Explore named products, platforms and prototypes.",
         "registry_open_catalog": "Open catalog",
@@ -120,6 +121,7 @@ TEXT = {
         "score_help_text": "Each criterion is min–max normalized within the current filtered selection. Value drivers increase the score; shorter sales cycles and lower regulatory complexity increase it too. The result is a relative comparison, so changing the filter can change every score.",
     },
     "de": {
+        "registry_sensor": "Tastsensoren am Roboter",
         "registry_catalog": "Produktkatalog",
         "registry_catalog_intro": "Produkte, Plattformen und Prototypen im Detail entdecken.",
         "registry_open_catalog": "Katalog öffnen",
