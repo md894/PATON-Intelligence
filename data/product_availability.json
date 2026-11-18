@@ -1,0 +1,88 @@
+{
+  "P01": {
+    "status": "research",
+    "source": "https://www.felyalabs.com/",
+    "en": "FELYA describes PATON as an evolving research platform.",
+    "de": "FELYA beschreibt PATON als Forschungsplattform in Entwicklung."
+  },
+  "C01": {
+    "status": "order",
+    "year": 2024,
+    "basis": "by",
+    "source": "https://www.prnewswire.com/news-releases/haptx-begins-north-american-shipments-of-haptx-gloves-g1-worlds-most-realistic-touch-feedback-system-302175142.html",
+    "en": "HaptX reported North American customer shipments in June 2024 and offered ordering.",
+    "de": "HaptX meldete im Juni 2024 Lieferungen an nordamerikanische Kunden und bot eine Bestellung an."
+  },
+  "C02": {
+    "status": "order",
+    "year": 2024,
+    "basis": "by",
+    "source": "https://www.linkedin.com/posts/senseglove_vr-haptics-immersivetech-activity-7186281202843099136-vKMl",
+    "en": "SenseGlove announced customer shipments in 2024. Nova 2 is also listed in its webshop.",
+    "de": "SenseGlove meldete 2024 den Lieferbeginn. Nova 2 ist auch im Hersteller-Webshop gelistet.",
+    "additional_source": "https://senseglove.com/shop/"
+  },
+  "C03": {
+    "status": "order",
+    "source": "https://weart.it/touchdiver-pro-haptic-gloves/",
+    "en": "The manufacturer accepts orders. Its 2024 announcement documents preorders, so the sales-start year remains unconfirmed.",
+    "de": "Der Hersteller nimmt Bestellungen an. Die Ankündigung von 2024 dokumentiert Vorbestellungen. Das Jahr des Verkaufsstarts bleibt offen.",
+    "additional_source": "https://weart.it/press/weart-introduces-the-new-touchdiver-pro-haptic-glove-a-new-dimension-for-xr-interactions/"
+  },
+  "C07": {
+    "status": "order",
+    "year": 2026,
+    "basis": "start",
+    "source": "https://www.manus-meta.com/blog/metagloves-pro-haptic-precise-hand-tracking-meets-real-time-haptic-feedback",
+    "en": "The dated product introduction says direct and partner sales were available on 20 March 2026.",
+    "de": "Die datierte Produkteinführung nennt den 20. März 2026 als Zeitpunkt der Verfügbarkeit im Direkt- und Partnervertrieb."
+  },
+  "C08": {
+    "status": "unknown",
+    "source": "https://www.bhaptics.com/shop/tactglove/",
+    "en": "The current manufacturer shop lists DK3. That page gives no sales status for DK2.",
+    "de": "Der aktuelle Hersteller-Shop listet DK3. Die Seite gibt keinen Verkaufsstatus für DK2 an."
+  },
+  "C09": {
+    "status": "inquiry",
+    "source": "https://www.origami-robotics.com/s1",
+    "en": "The supplier invites access requests and confirms availability individually.",
+    "de": "Der Anbieter nimmt Zugangsanfragen entgegen und klärt die Verfügbarkeit individuell."
+  },
+  "C10": {
+    "status": "inquiry",
+    "source": "https://www.sharpa.com/pages/ae01",
+    "en": "The product page invites quote requests. A beginning-of-sales date is not stated.",
+    "de": "Die Produktseite bietet eine Angebotsanfrage an. Ein Verkaufsstart ist nicht datiert."
+  },
+  "C12": {
+    "status": "order",
+    "source": "https://store.agibot.com/products/omniglove",
+    "en": "The manufacturer store shows order options for OmniGlove and OmniGlove Pro.",
+    "de": "Der Hersteller-Shop zeigt Bestelloptionen für OmniGlove und OmniGlove Pro."
+  },
+  "C13": {
+    "status": "order",
+    "source": "https://www.whatslab.co.kr/en/products/",
+    "en": "The manufacturer marks Air Glove Atlas as available.",
+    "de": "Der Hersteller kennzeichnet Air Glove Atlas als verfügbar."
+  },
+  "C15": {
+    "status": "preorder",
+    "source": "https://teslasuit.io/products/teslaglove/",
+    "en": "The manufacturer shows a preorder option for Teslaglove 2.",
+    "de": "Der Hersteller zeigt eine Vorbestelloption für Teslaglove 2."
+  },
+  "B12": {
+    "status": "unknown",
+    "source": "https://www.origami-robotics.com/",
+    "en": "The supplier introduces Flow and gives no sales date on the product overview.",
+    "de": "Der Anbieter stellt Flow vor. Die Produktübersicht nennt keinen Verkaufstermin."
+  },
+  "B14": {
+    "status": "open",
+    "source": "https://github.com/unitreerobotics/xr_teleoperate",
+    "en": "Unitree publishes the software in a public repository.",
+    "de": "Unitree veröffentlicht die Software in einem öffentlichen Repository."
+  }
+}

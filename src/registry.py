@@ -14,8 +14,32 @@ def load_registry():
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def render_registry(entries, key):
+@st.cache_data
+def load_availability():
+    path = Path(__file__).resolve().parents[1] / "data" / "product_availability.json"
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def _sales_status(entry, availability):
+    fallback = "research" if entry["stage"] == "research" else "unknown"
+    return availability.get(entry["id"], {}).get("status", fallback)
+
+
+def _sales_year(record):
+    if "year" not in record:
+        return tr("registry_sales_no_year")
+    if record["basis"] == "by":
+        return tr("registry_sales_by").format(year=record["year"])
+    return str(record["year"])
+
+
+def _remember_sales_filter(widget_key, preference_key):
+    st.session_state[preference_key] = st.session_state[widget_key]
+
+
+def render_registry(entries, key, *, show_sales=False):
     language = st.session_state.get("language_preference", "en")
+    availability = load_availability() if show_sales else {}
     search, category_filter, region_filter = st.columns([2, 1, 1])
     query = search.text_input(tr("registry_search"), key=f"{key}_search").strip().casefold()
     categories = sorted({entry["category"] for entry in entries})
@@ -30,10 +54,25 @@ def render_registry(entries, key):
         tr("region"), list(region_labels), format_func=region_labels.__getitem__,
         key=f"{key}_region",
     )
+    sales_filter = "all"
+    if show_sales:
+        st.caption(tr("registry_sales_note"))
+        statuses = ("order", "inquiry", "preorder", "research", "open", "unknown")
+        status_labels = {"all": tr("registry_all")}
+        status_labels.update({status: tr(f"registry_sales_status_{status}") for status in statuses})
+        widget_key = f"{key}_sales_filter"
+        preference_key = f"{key}_sales_preference"
+        sales_filter = st.selectbox(
+            tr("registry_availability"), list(status_labels),
+            index=list(status_labels).index(st.session_state.get(preference_key, "all")),
+            format_func=status_labels.__getitem__, key=widget_key,
+            on_change=_remember_sales_filter, args=(widget_key, preference_key),
+        )
     filtered = [
         entry for entry in entries
         if (category == "all" or entry["category"] == category)
         and (region == "all" or region in entry["region"].split("/"))
+        and (sales_filter == "all" or _sales_status(entry, availability) == sales_filter)
         and all(word in " ".join(entry.get(field, "") for field in (
             "id", "organization", "product", "region", "en", "de", "search_aliases"
         )).casefold() for word in query.split())
@@ -59,11 +98,18 @@ def render_registry(entries, key):
         for entry in filtered
     ])
     visible = ["product", "organization", "region", "category", "stage", "source"]
+    if show_sales:
+        records = [availability.get(entry["id"], {}) for entry in filtered]
+        table["availability"] = [status_labels[_sales_status(entry, availability)] for entry in filtered]
+        table["sales_year"] = [_sales_year(record) for record in records]
+        table["sales_source"] = [record.get("source") for record in records]
+        visible = ["product", "organization", "availability", "sales_year", "region", "category", "sales_source"]
     labels = {column: tr(f"registry_{column}") for column in table.columns}
+    source_column = "sales_source" if show_sales else "source"
     st.dataframe(
         table[visible], hide_index=True, width="stretch", column_config={
             **{column: labels[column] for column in visible},
-            "source": st.column_config.LinkColumn(labels["source"], display_text=tr("registry_open_source")),
+            source_column: st.column_config.LinkColumn(labels[source_column], display_text=tr("registry_open_source")),
         },
     )
 
@@ -78,6 +124,17 @@ def render_registry(entries, key):
     with st.container(border=True):
         st.subheader(entry["product"])
         st.caption(f"{entry['organization']} · {entry['region']} · {stage_label}")
+        if show_sales:
+            record = availability.get(selected, {})
+            status = status_labels[_sales_status(entry, availability)]
+            st.markdown(f"**{tr('registry_availability')}** · {status}")
+            if record.get("year"):
+                st.write(f"{tr('registry_sales_year')} · {_sales_year(record)}")
+            if record:
+                st.write(record[language])
+                st.markdown(f"[{tr('registry_sales_open_source')}]({record['source']})")
+                if record.get("additional_source"):
+                    st.markdown(f"[{tr('registry_additional_sources')}]({record['additional_source']})")
         st.markdown(f"**{tr('registry_evidence')}**")
         st.write(entry[language])
         st.markdown(f"**{tr('registry_relevance')}**")

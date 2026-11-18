@@ -12,6 +12,7 @@ The dashboard opens with **public-source market research**. The register contain
 - Streamlit browser dashboard with an overview and two analysis pages
 - compact Felya-style English/German and light/dark controls whose preferences persist across pages
 - filters, KPI cards, charts, and downloadable filtered CSV files
+- Product catalog filter for public sales status, with sourced sales years where available
 - transparent opportunity-scoring model with user-adjustable weights
 - safe local demo data in `data/`
 - lightweight tests for the scoring logic

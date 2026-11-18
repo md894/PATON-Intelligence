@@ -15,4 +15,4 @@ entries = [
     entry for entry in load_registry()
     if entry.get("catalog", True) and entry["id"] not in {"B05", "B06", "B07", "B11"}
 ]
-render_registry(entries, "products")
+render_registry(entries, "products", show_sales=True)
