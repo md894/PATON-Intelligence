@@ -555,10 +555,10 @@
     "region": "SG",
     "category": "glove",
     "stage": "commercial",
-    "en": "The vendor describes a 22-encoder exoskeleton glove with haptic feedback, teleoperation and data capture.",
-    "de": "Der Anbieter beschreibt einen Exoskelett-Handschuh mit 22 Encodern, haptischem Feedback, Teleoperation und Datenerfassung.",
-    "relevance_en": "Close functional benchmark. Verify actuator type and supported robot hands.",
-    "relevance_de": "Enger Funktionsvergleich. Aktortyp und unterstützte Roboterhände prüfen.",
+    "en": "The vendor specifies a 22-encoder exoskeleton glove with five fingertip vibration motors, teleoperation and data capture.",
+    "de": "Der Anbieter spezifiziert einen Exoskelett-Handschuh mit 22 Encodern, fünf Fingerspitzen-Vibrationsmotoren, Teleoperation und Datenerfassung.",
+    "relevance_en": "Benchmark vibrotactile teleoperation and verify supported robot hands.",
+    "relevance_de": "Vibrotaktile Teleoperation vergleichen und unterstützte Roboterhände prüfen.",
     "sources": [
       {
         "label": "www.sharpa.com",

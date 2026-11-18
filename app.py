@@ -2,6 +2,7 @@ import streamlit as st
 
 from src.i18n import tr
 from src.registry import load_registry
+from src.strategy import render_signals
 from src.ui import configure_page, portal_navigation
 
 
@@ -37,3 +38,11 @@ with products.container(border=True, key="workspace_products"):
     st.markdown(f"#### {tr('registry_catalog')}")
     st.write(tr("registry_catalog_intro"))
     st.page_link("pages/3_Products.py", label=tr("registry_open_catalog"))
+
+with st.container(border=True):
+    st.subheader(tr("strategy_first"))
+    st.write(tr("strategy_work"))
+    st.page_link("pages/4_Strategy.py", label=tr("strategy_open"))
+
+st.subheader(tr("strategy_signals"))
+render_signals({entry["id"]: entry for entry in entries}, st.session_state.language_preference, limit=2)

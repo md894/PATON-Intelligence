@@ -121,6 +121,7 @@ def portal_navigation() -> None:
         st.page_link("pages/1_Competitor_Intelligence.py", label=tr("competitor_intelligence"))
         st.page_link("pages/2_B2B_Market_Intelligence.py", label=tr("market_intelligence"))
         st.page_link("pages/3_Products.py", label=tr("registry_catalog"))
+        st.page_link("pages/4_Strategy.py", label=tr("strategy"))
 
 
 def demo_notice() -> None:

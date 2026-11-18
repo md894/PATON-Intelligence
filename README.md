@@ -15,6 +15,7 @@ The dashboard opens with **public-source market research**. The register contain
 - transparent opportunity-scoring model with user-adjustable weights
 - safe local demo data in `data/`
 - lightweight tests for the scoring logic
+- FELYA Strategy workspace with task-based comparisons, product readiness, buyer validation, market signals and an ORCA pilot worksheet
 - deployment instructions for Streamlit Community Cloud
 
 ## Project structure
