@@ -2,6 +2,7 @@ import streamlit as st
 
 from src.data import load_competitors, to_csv_bytes
 from src.i18n import tr
+from src.registry import load_registry, render_research_view
 from src.ui import configure_page, demo_notice, portal_navigation
 
 
@@ -10,6 +11,7 @@ portal_navigation()
 
 st.title(tr("competitor_intelligence"))
 st.write(tr("competitor_intro"))
+render_research_view([entry for entry in load_registry() if entry["id"][0] in "CT"], "competitors")
 demo_notice()
 
 data = load_competitors()

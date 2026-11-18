@@ -1,0 +1,528 @@
+[
+  {
+    "id": "P01",
+    "organization": "FELYA LABS",
+    "product": "PATON Gloves + Suit",
+    "region": "DE",
+    "category": "glove",
+    "stage": "reference",
+    "en": "FELYA presents PATON as an evolving research platform for wearable robot control and physical feedback.",
+    "de": "FELYA beschreibt PATON als Forschungsplattform für tragbare Robotersteuerung und physisches Feedback.",
+    "relevance_en": "Reference system for the comparison. Confirm each capability against the specific prototype and task.",
+    "relevance_de": "Referenzsystem für den Vergleich. Funktionsumfang anhand der konkreten Prototypversion und Aufgabe prüfen.",
+    "sources": [
+      {
+        "label": "FELYA LABS",
+        "url": "https://www.felyalabs.com/"
+      }
+    ]
+  },
+  {
+    "id": "C01",
+    "organization": "HaptX",
+    "product": "Gloves G1",
+    "region": "US",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "Microfluidic touch, finger force feedback and an Airpack. SDKs for Unity and Unreal.",
+    "de": "Mikrofluidisches Tastfeedback, Fingerkraftfeedback und Airpack. SDKs für Unity und Unreal.",
+    "relevance_en": "Benchmark the entire setup, including donning and integration time.",
+    "relevance_de": "Gesamtsystem einschließlich Anlege- und Integrationszeit vergleichen.",
+    "sources": [
+      {
+        "label": "Страница G1",
+        "url": "https://haptx.com/gloves-g1/"
+      }
+    ]
+  },
+  {
+    "id": "C02",
+    "organization": "SenseGlove",
+    "product": "Nova 2",
+    "region": "NL",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "Passive braking on four fingers, active palm contact and vibration.",
+    "de": "Passive Bremsung an vier Fingern, aktiver Handflächenkontakt und Vibration.",
+    "relevance_en": "Compare passive grasp resistance and distinguish it from active finger movement.",
+    "relevance_de": "Passiven Greifwiderstand vergleichen und von aktiver Fingerbewegung trennen.",
+    "sources": [
+      {
+        "label": "Документация Nova 2",
+        "url": "https://senseglove.gitlab.io/SenseGloveDocs/nova-2.html"
+      }
+    ]
+  },
+  {
+    "id": "C03",
+    "organization": "WEART",
+    "product": "TouchDIVER Pro",
+    "region": "IT",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "Localized pressure, texture and thermal cues on fingers and palm.",
+    "de": "Lokaler Druck, Texturen und Temperaturreize an Fingern und Handfläche.",
+    "relevance_en": "Benchmark contact sensations and evaluate finger-flexion resistance separately.",
+    "relevance_de": "Kontaktempfindung vergleichen und Widerstand gegen Fingerbeugung gesondert prüfen.",
+    "sources": [
+      {
+        "label": "Анонс TouchDIVER Pro",
+        "url": "https://weart.it/press/weart-introduces-the-new-touchdiver-pro-haptic-glove-a-new-dimension-for-xr-interactions/"
+      }
+    ]
+  },
+  {
+    "id": "C04",
+    "organization": "Contact CI",
+    "product": "Maestro",
+    "region": "US",
+    "category": "glove",
+    "stage": "documented",
+    "en": "The manufacturer publishes SDK documentation for the Maestro family.",
+    "de": "Der Hersteller veröffentlicht SDK-Dokumentation zur Maestro-Reihe.",
+    "relevance_en": "Confirm the supported model, availability and integration path.",
+    "relevance_de": "Unterstütztes Modell, Lieferbarkeit und Integrationsweg klären.",
+    "sources": [
+      {
+        "label": "Репозиторий SDK",
+        "url": "https://github.com/Contact-Control-Interfaces/maestro-sdk-docs"
+      }
+    ]
+  },
+  {
+    "id": "C05",
+    "organization": "CyberGlove Systems",
+    "product": "CyberGrasp",
+    "region": "US",
+    "category": "glove",
+    "stage": "documented",
+    "en": "A wearable finger force-feedback system used with a motion-capture glove.",
+    "de": "Tragbares Fingerkraftfeedback-System für einen Bewegungserfassungshandschuh.",
+    "relevance_en": "Compare exoskeleton architecture and verify current kit availability.",
+    "relevance_de": "Exoskelett-Architektur vergleichen und Verfügbarkeit des Systems prüfen.",
+    "sources": [
+      {
+        "label": "CyberGrasp",
+        "url": "https://www.cyberglovesystems.com/cybergrasp/"
+      }
+    ]
+  },
+  {
+    "id": "C06",
+    "organization": "Dexta Robotics",
+    "product": "Dexmo DK1",
+    "region": "CN",
+    "category": "glove",
+    "stage": "historical",
+    "en": "A 2019 manual documents hand tracking and variable force feedback.",
+    "de": "Ein Handbuch von 2019 dokumentiert Handtracking und variables Kraftfeedback.",
+    "relevance_en": "Use as a historical benchmark and verify sales and support separately.",
+    "relevance_de": "Als historischen Vergleich nutzen und Vertrieb sowie Support gesondert prüfen.",
+    "sources": [
+      {
+        "label": "Руководство Dexmo DK1",
+        "url": "https://oss-main.dextarobotics.com/specifications_en-us.pdf"
+      }
+    ]
+  },
+  {
+    "id": "C07",
+    "organization": "MANUS",
+    "product": "Metagloves Pro Haptic",
+    "region": "NL",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "The vendor comparison documents motion capture and haptic functionality.",
+    "de": "Der Herstellervergleich dokumentiert Bewegungserfassung und haptische Funktionen.",
+    "relevance_en": "Compare tracking and software integration for this exact model.",
+    "relevance_de": "Tracking und Softwareintegration für genau dieses Modell vergleichen.",
+    "sources": [
+      {
+        "label": "Сравнение MANUS",
+        "url": "https://www.manus-meta.com/products/metagloves-pro-haptic-compare"
+      }
+    ]
+  },
+  {
+    "id": "C08",
+    "organization": "bHaptics",
+    "product": "TactGlove DK2",
+    "region": "KR",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "The manual specifies six vibration actuators per hand.",
+    "de": "Das Handbuch nennt sechs Vibrationsaktoren pro Hand.",
+    "relevance_en": "Benchmark XR tasks where a touch cue is sufficient.",
+    "relevance_de": "XR-Aufgaben vergleichen, bei denen ein Berührungssignal genügt.",
+    "sources": [
+      {
+        "label": "Руководство DK2",
+        "url": "https://cdn.bhaptics.com/files/tactglove-manual-en.pdf"
+      }
+    ]
+  },
+  {
+    "id": "T01",
+    "organization": "Haption",
+    "product": "Virtuose 6D TAO",
+    "region": "FR",
+    "category": "interface",
+    "stage": "commercial",
+    "en": "Grounded force-feedback device for teleoperation and remote manipulation.",
+    "de": "Stationäres Kraftfeedback-Gerät für Teleoperation und Fernmanipulation.",
+    "relevance_en": "Compare a grounded interface with the wearable approach.",
+    "relevance_de": "Stationäre Bedienlösung mit dem tragbaren Ansatz vergleichen.",
+    "sources": [
+      {
+        "label": "Virtuose 6D",
+        "url": "https://www.haption.com/product/virtuose6d"
+      }
+    ]
+  },
+  {
+    "id": "T02",
+    "organization": "DLR",
+    "product": "HUG",
+    "region": "DE",
+    "category": "interface",
+    "stage": "research",
+    "en": "DLR describes a haptic interface for remote manipulation.",
+    "de": "Das DLR beschreibt eine haptische Schnittstelle für Fernmanipulation.",
+    "relevance_en": "Compare the operator station, controls and force-feedback loop.",
+    "relevance_de": "Bedienplatz, Steuerelemente und Kraftregelkreis vergleichen.",
+    "sources": [
+      {
+        "label": "DLR HUG",
+        "url": "https://www.dlr.de/en/latest/news/2025/dlr-showcases-robotics-highlights-at-automatica-2025/haptic-interaction-device-hug"
+      }
+    ]
+  },
+  {
+    "id": "T03",
+    "organization": "NVIDIA Research",
+    "product": "DexPilot",
+    "region": "US",
+    "category": "interface",
+    "stage": "research",
+    "en": "A camera-based approach demonstrates control of a dexterous robot hand and arm.",
+    "de": "Ein kamerabasierter Ansatz demonstriert die Steuerung einer Roboterhand und eines Arms.",
+    "relevance_en": "Compare setup time, occlusion and tracking quality against a glove.",
+    "relevance_de": "Einrichtungszeit, Verdeckung und Tracking-Qualität mit einem Handschuh vergleichen.",
+    "sources": [
+      {
+        "label": "Публикация DexPilot",
+        "url": "https://research.nvidia.com/publication/2020-05_dexpilot-vision-based-teleoperation-dexterous-robotic-hand-arm-system"
+      }
+    ]
+  },
+  {
+    "id": "T04",
+    "organization": "Tsinghua University / Shanghai Qi Zhi Institute / Shanghai AI Lab",
+    "product": "DOGlove",
+    "region": "CN",
+    "category": "glove",
+    "stage": "research",
+    "en": "Open research prototype with motion capture, cable-driven force feedback and fingertip vibration.",
+    "de": "Offener Forschungsprototyp mit Bewegungserfassung, seilbasiertem Kraftfeedback und Fingerspitzenvibration.",
+    "relevance_en": "Benchmark contact-rich tasks and separate assembly cost from system price.",
+    "relevance_de": "Kontaktreiche Aufgaben vergleichen und Aufbaukosten vom Systempreis trennen.",
+    "sources": [
+      {
+        "label": "Страница проекта",
+        "url": "https://do-glove.github.io/"
+      },
+      {
+        "label": "Работа",
+        "url": "https://arxiv.org/abs/2502.07730"
+      }
+    ]
+  },
+  {
+    "id": "T05",
+    "organization": "National University of Singapore",
+    "product": "HaptGlove",
+    "region": "SG",
+    "category": "glove",
+    "stage": "research",
+    "en": "Wireless prototype with kinesthetic and cutaneous feedback on five fingers.",
+    "de": "Kabelloser Prototyp mit kinästhetischem und kutanem Feedback an fünf Fingern.",
+    "relevance_en": "Benchmark portability and verify any commercialization separately.",
+    "relevance_de": "Mobilität vergleichen und eine mögliche Vermarktung gesondert prüfen.",
+    "sources": [
+      {
+        "label": "NUS",
+        "url": "https://news.nus.edu.sg/novel-vr-glove-levels-up-user-experience-in-the-metaverse-with-a-more-realistic-sense-of-touch/"
+      }
+    ]
+  },
+  {
+    "id": "T06",
+    "organization": "EPFL / ETH Zürich",
+    "product": "DextrES",
+    "region": "CH",
+    "category": "glove",
+    "stage": "research",
+    "en": "Thin wearable prototype using electrostatic braking for virtual grasping.",
+    "de": "Dünner tragbarer Prototyp mit elektrostatischer Bremse für virtuelles Greifen.",
+    "relevance_en": "Compare the resistance mechanism and form factor.",
+    "relevance_de": "Widerstandsmechanismus und Bauform vergleichen.",
+    "sources": [
+      {
+        "label": "EPFL",
+        "url": "https://www.epfl.ch/labs/lmts/lmts-research/haptics/dextres/"
+      }
+    ]
+  },
+  {
+    "id": "T07",
+    "organization": "TachiLab",
+    "product": "Haptic Display Glove",
+    "region": "JP",
+    "category": "glove",
+    "stage": "research",
+    "en": "A 2019 conference paper documents an experimental haptic display glove.",
+    "de": "Ein Konferenzbeitrag von 2019 dokumentiert einen experimentellen haptischen Handschuh.",
+    "relevance_en": "Review the stimuli and experimental conditions before benchmarking.",
+    "relevance_de": "Vor einem Vergleich Reize und Versuchsbedingungen prüfen.",
+    "sources": [
+      {
+        "label": "Публикация лаборатории",
+        "url": "https://tachilab.org/content/files/publication/ic/kato201909ISMCR.pdf"
+      }
+    ]
+  },
+  {
+    "id": "T08",
+    "organization": "IFRS",
+    "product": "Wireless Gesture Capture Glove",
+    "region": "BR",
+    "category": "glove",
+    "stage": "research",
+    "en": "An academic project documents wireless hand-gesture capture.",
+    "de": "Ein Hochschulprojekt dokumentiert die kabellose Erfassung von Handgesten.",
+    "relevance_en": "Benchmark accessible tracking and leave force feedback unconfirmed.",
+    "relevance_de": "Zugängliches Tracking vergleichen. Kraftfeedback bleibt offen.",
+    "sources": [
+      {
+        "label": "Репозиторий IFRS",
+        "url": "https://repositorio.ifrs.edu.br/handle/123456789/2078?show=full"
+      }
+    ]
+  },
+  {
+    "id": "T09",
+    "organization": "StretchSense",
+    "product": "XR Motion Capture Gloves",
+    "region": "NZ",
+    "category": "glove",
+    "stage": "commercial",
+    "en": "The company lists a range of XR and motion-capture gloves.",
+    "de": "Das Unternehmen listet Handschuhe für XR und Bewegungserfassung.",
+    "relevance_en": "Compare alternatives for buyers primarily seeking tracking.",
+    "relevance_de": "Alternativen für Kunden mit Schwerpunkt Bewegungserfassung vergleichen.",
+    "sources": [
+      {
+        "label": "Каталог StretchSense",
+        "url": "https://shop.stretchsense.com/"
+      }
+    ]
+  },
+  {
+    "id": "B01",
+    "organization": "ORCA Hand",
+    "product": "ORCA Hand / ORCA Teleop",
+    "region": "CH",
+    "category": "robotics",
+    "stage": "research",
+    "en": "The project documents camera-based finger control and demonstration recording with Quest.",
+    "de": "Das Projekt dokumentiert kamerabasierte Fingersteuerung und die Aufzeichnung von Demonstrationen mit Quest.",
+    "relevance_en": "Compare PATON with camera input on the same grasp task.",
+    "relevance_de": "PATON bei derselben Greifaufgabe mit Kameraeingabe vergleichen.",
+    "sources": [
+      {
+        "label": "ORCA Teleop",
+        "url": "https://github.com/orcahand/orca_teleop"
+      }
+    ]
+  },
+  {
+    "id": "B02",
+    "organization": "Shadow Robot",
+    "product": "Teleoperation System",
+    "region": "GB",
+    "category": "robotics",
+    "stage": "commercial",
+    "en": "The supplier documents a dexterous hand setup with an optional HaptX and tactile-sensor configuration.",
+    "de": "Der Anbieter dokumentiert einen Aufbau mit Roboterhand und einer Konfiguration mit HaptX und Tastsensoren.",
+    "relevance_en": "Study a complete system and requirements for contact feedback and motion mapping.",
+    "relevance_de": "Gesamtsystem und Anforderungen an Kontaktfeedback und Bewegungsübertragung untersuchen.",
+    "sources": [
+      {
+        "label": "Shadow Robot",
+        "url": "https://shadowrobot.com/teleoperation/"
+      }
+    ]
+  },
+  {
+    "id": "B03",
+    "organization": "Tesollo × Rokoko",
+    "product": "Tesollo hand / Smartgloves II",
+    "region": "KR/DK",
+    "category": "robotics",
+    "stage": "case",
+    "en": "Rokoko documents glove-based control of a Tesollo robotic hand for teleoperation and demonstrations.",
+    "de": "Rokoko dokumentiert die Handschuhsteuerung einer Tesollo-Roboterhand für Teleoperation und Demonstrationen.",
+    "relevance_en": "Test where tracking suffices and where force feedback adds measurable value.",
+    "relevance_de": "Prüfen, wann Tracking genügt und Kraftfeedback messbaren Mehrwert bietet.",
+    "sources": [
+      {
+        "label": "Описание демонстрации",
+        "url": "https://www.rokoko.com/robotics/tesollo-hand"
+      }
+    ]
+  },
+  {
+    "id": "B04",
+    "organization": "NVIDIA",
+    "product": "Isaac Capture",
+    "region": "US",
+    "category": "robotics",
+    "stage": "documented",
+    "en": "The platform documents teleoperation and robot-learning data collection tools.",
+    "de": "Die Plattform dokumentiert Werkzeuge für Teleoperation und Datenerfassung für Roboterlernen.",
+    "relevance_en": "Check timestamps, coordinates, synchronization and export requirements.",
+    "relevance_de": "Anforderungen an Zeitstempel, Koordinaten, Synchronisierung und Export prüfen.",
+    "sources": [
+      {
+        "label": "NVIDIA Isaac Capture",
+        "url": "https://developer.nvidia.com/isaac/capture"
+      }
+    ]
+  },
+  {
+    "id": "B05",
+    "organization": "Volkswagen Commercial Vehicles × SenseGlove",
+    "product": "Assembly Training Case",
+    "region": "DE/NL",
+    "category": "training",
+    "stage": "case",
+    "en": "A vendor case describes glove-assisted training for assembly operations.",
+    "de": "Ein Anbieterfall beschreibt handschuhgestütztes Training für Montagearbeiten.",
+    "relevance_en": "Test one operation for task time, errors and transfer to a physical rig.",
+    "relevance_de": "Eine Aufgabe nach Zeit, Fehlern und Übertrag auf einen physischen Prüfstand untersuchen.",
+    "sources": [
+      {
+        "label": "Кейс SenseGlove",
+        "url": "https://www.senseglove.com/cases/volkswagen-commercial-vehicles/"
+      }
+    ]
+  },
+  {
+    "id": "B06",
+    "organization": "UKAEA",
+    "product": "RACE",
+    "region": "GB",
+    "category": "remote",
+    "stage": "case",
+    "en": "The centre documents robotics research and remote work in challenging environments.",
+    "de": "Das Zentrum dokumentiert Robotikforschung und Fernarbeit in anspruchsvollen Umgebungen.",
+    "relevance_en": "Investigate operator interfaces and fault-tolerance requirements.",
+    "relevance_de": "Anforderungen an die Bedienoberfläche und Fehlertoleranz untersuchen.",
+    "sources": [
+      {
+        "label": "UKAEA Robotics",
+        "url": "https://www.ukaea.org/expertise/robotics/"
+      }
+    ]
+  },
+  {
+    "id": "B07",
+    "organization": "ITER",
+    "product": "Remote Handling",
+    "region": "FR",
+    "category": "remote",
+    "stage": "case",
+    "en": "ITER documents robotic systems for the remote maintenance of its installation.",
+    "de": "ITER dokumentiert Robotersysteme für die Fernwartung seiner Anlage.",
+    "relevance_en": "Identify an operation for which operator dexterity is critical.",
+    "relevance_de": "Eine Aufgabe identifizieren, bei der manuelle Geschicklichkeit entscheidend ist.",
+    "sources": [
+      {
+        "label": "ITER Remote Handling",
+        "url": "https://www.iter.org/machine/supporting-systems/remote-handling"
+      }
+    ]
+  },
+  {
+    "id": "B08",
+    "organization": "Gloreha",
+    "product": "R-TOUCH PRO / Sinfonia",
+    "region": "IT",
+    "category": "rehab",
+    "stage": "commercial",
+    "en": "Vendor describes hand exercises and robotic movement assistance.",
+    "de": "Der Anbieter beschreibt Handübungen und robotische Bewegungsunterstützung.",
+    "relevance_en": "Benchmark clinical workflows and specialized product requirements.",
+    "relevance_de": "Klinische Abläufe und Anforderungen an spezialisierte Produkte vergleichen.",
+    "sources": [
+      {
+        "label": "Gloreha Sinfonia",
+        "url": "https://www.gloreha.com/r-touch-pro-sinfonia/"
+      }
+    ]
+  },
+  {
+    "id": "B09",
+    "organization": "Neofect",
+    "product": "Smart Glove",
+    "region": "KR",
+    "category": "rehab",
+    "stage": "commercial",
+    "en": "The supplier describes glove-based motion tracking during rehabilitation exercises.",
+    "de": "Der Anbieter beschreibt Bewegungserfassung mit einem Handschuh bei Rehabilitationsübungen.",
+    "relevance_en": "Compare the roles of tracking and software feedback.",
+    "relevance_de": "Rolle von Tracking und Softwarefeedback vergleichen.",
+    "sources": [
+      {
+        "label": "Neofect Smart Glove",
+        "url": "https://www.neofect.com/us/smart-glove"
+      }
+    ]
+  },
+  {
+    "id": "B10",
+    "organization": "Syrebo",
+    "product": "Robotic Rehab Glove (E12E)",
+    "region": "CN",
+    "category": "rehab",
+    "stage": "commercial",
+    "en": "The vendor describes a glove with mechanical assistance during hand exercises.",
+    "de": "Der Hersteller beschreibt einen Handschuh zur mechanischen Unterstützung bei Handübungen.",
+    "relevance_en": "Clarify intended use, safety and evidence requirements.",
+    "relevance_de": "Zweckbestimmung, Sicherheit und Anforderungen an Nachweise klären.",
+    "sources": [
+      {
+        "label": "Syrebo",
+        "url": "https://www.syrebo.com/rehabilitation-equipment-for-home/hand-rehabilitation-robot-sy-hre12"
+      }
+    ]
+  },
+  {
+    "id": "B11",
+    "organization": "CSIRO",
+    "product": "Mining-to-space robotics research",
+    "region": "AU",
+    "category": "remote",
+    "stage": "research",
+    "en": "CSIRO describes applying mining automation technologies to space tasks.",
+    "de": "CSIRO beschreibt den Transfer von Bergbauautomatisierung auf Raumfahrtaufgaben.",
+    "relevance_en": "Investigate whether an operator interface with touch feedback is useful.",
+    "relevance_de": "Prüfen, ob eine Bedienoberfläche mit Tastfeedback hilfreich wäre.",
+    "sources": [
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/news/all/articles/2023/april/taking-mining-technology-into-orbit"
+      }
+    ]
+  }
+]

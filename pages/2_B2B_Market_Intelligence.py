@@ -2,6 +2,7 @@ import streamlit as st
 
 from src.data import load_markets, to_csv_bytes
 from src.i18n import tr
+from src.registry import load_registry, render_research_view
 from src.scoring import BENEFIT_COLUMNS, COST_COLUMNS, DEFAULT_WEIGHTS, score_markets
 from src.ui import configure_page, demo_notice, portal_navigation
 
@@ -11,6 +12,7 @@ portal_navigation()
 
 st.title(tr("market_intelligence"))
 st.write(tr("market_intro"))
+render_research_view([entry for entry in load_registry() if entry["id"].startswith("B")], "markets")
 demo_notice()
 
 data = load_markets()

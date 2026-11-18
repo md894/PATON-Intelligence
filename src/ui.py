@@ -64,7 +64,7 @@ def configure_page(title: str) -> None:
         .st-key-portal_navigation a[aria-current="page"],
         .st-key-portal_navigation a:hover {{background: {secondary};}}
         div[data-testid="stVerticalBlockBorderWrapper"]:has(> div > div:is(
-            .st-key-workspace_competitors, .st-key-workspace_markets)) {{
+            .st-key-workspace_competitors, .st-key-workspace_markets, .st-key-workspace_products)) {{
             background: {metric}; border-color: {border}; border-radius: 12px;}}
         [data-testid="stMetric"] {{background: {metric}; border: 1px solid {border};
             border-radius: 14px; padding: 0.9rem 1rem; box-shadow: none;}}
@@ -120,6 +120,7 @@ def portal_navigation() -> None:
         st.page_link("app.py", label=tr("overview"))
         st.page_link("pages/1_Competitor_Intelligence.py", label=tr("competitor_intelligence"))
         st.page_link("pages/2_B2B_Market_Intelligence.py", label=tr("market_intelligence"))
+        st.page_link("pages/3_Products.py", label=tr("registry_catalog"))
 
 
 def demo_notice() -> None:
