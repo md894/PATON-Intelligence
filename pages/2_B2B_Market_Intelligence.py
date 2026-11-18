@@ -3,11 +3,11 @@ import streamlit as st
 from src.data import load_markets, to_csv_bytes
 from src.i18n import tr
 from src.scoring import BENEFIT_COLUMNS, COST_COLUMNS, DEFAULT_WEIGHTS, score_markets
-from src.ui import configure_page, demo_notice, sidebar_navigation
+from src.ui import configure_page, demo_notice, portal_navigation
 
 
-configure_page(tr("market_intelligence"), "P")
-sidebar_navigation()
+configure_page(tr("market_intelligence"))
+portal_navigation()
 
 st.title(tr("market_intelligence"))
 st.write(tr("market_intro"))

@@ -3,6 +3,9 @@ import streamlit as st
 
 TEXT = {
     "en": {
+        "switch_language": "Auf Deutsch wechseln",
+        "switch_dark": "Enable dark theme",
+        "switch_light": "Enable light theme",
         "overview": "Overview",
         "competitor_intelligence": "Competitor Intelligence",
         "market_intelligence": "B2B Market Intelligence",
@@ -77,6 +80,9 @@ TEXT = {
         "score_help_text": "Each criterion is min–max normalized within the current filtered selection. Value drivers increase the score; shorter sales cycles and lower regulatory complexity increase it too. The result is a relative comparison, so changing the filter can change every score.",
     },
     "de": {
+        "switch_language": "Switch to English",
+        "switch_dark": "Dunkles Design aktivieren",
+        "switch_light": "Helles Design aktivieren",
         "overview": "Übersicht",
         "competitor_intelligence": "Wettbewerbsanalyse",
         "market_intelligence": "B2B-Marktanalyse",

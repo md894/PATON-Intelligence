@@ -2,11 +2,11 @@ import streamlit as st
 
 from src.data import load_competitors, to_csv_bytes
 from src.i18n import tr
-from src.ui import configure_page, demo_notice, sidebar_navigation
+from src.ui import configure_page, demo_notice, portal_navigation
 
 
-configure_page(tr("competitor_intelligence"), "P")
-sidebar_navigation()
+configure_page(tr("competitor_intelligence"))
+portal_navigation()
 
 st.title(tr("competitor_intelligence"))
 st.write(tr("competitor_intro"))
